@@ -1,0 +1,127 @@
+/* .navBar{
+    background-color: white;
+} */
+
+.searchIcon{
+    margin-right: -30px;
+    margin-left: 10px;
+    z-index: 1;
+    /* color: gray; */
+}
+
+.searchForm{
+    align-items: center;
+    margin-right: 150px;
+}
+
+.searchInput{
+    padding-left: 40px;
+}
+
+.navList{
+    gap: 20px;
+}
+
+.navContainer{
+   margin-left: 10%;
+   margin-right: 10%;
+}
+
+.headerOption_icon {
+    object-fit: contain;
+    color: grey;
+    height: 25px !important;
+    width: 25px !important;
+}
+
+.headerOptionTitle{
+    font-size: 12px;
+    color: grey;
+}
+
+.navListRight{
+    display: flex;
+    flex-direction: row;
+}
+
+.homePageContainer{
+    background-color: #f3f2ef;
+}
+.homePage{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 1%;
+}
+
+.gap{
+    margin: 10px;
+}
+
+.inputOption {
+    display: flex;
+    /* align-items: center; */
+    margin-top: 15px;
+    color: gray;
+    /* padding: 10px; */
+    cursor: pointer;
+  }
+  
+  .inputOption:hover {
+    background-color: whitesmoke;
+    border-radius: 10px;
+  }
+  
+  .inputOption > h4 {
+    margin-left: 5px;
+  }
+
+  .feed {
+    flex: 0.6;
+    margin: 0 20px;
+  }
+  
+  .feed > h6 {
+    text-align: right;
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .feed_inputContainer {
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .feed_input {
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    display: flex;
+    padding: 10px;
+    color: gray;
+    padding-left: 15px;
+  }
+  
+  .feed_input > form {
+    display: flex;
+    width: 100%;
+  }
+  
+  .feed_input > form > input {
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 600;
+  }
+  
+  .feed_input > form > button {
+    display: none;
+  }
+  
+  .feed_inputOptions {
+    display: flex;
+    justify-content: space-evenly;
+  }
